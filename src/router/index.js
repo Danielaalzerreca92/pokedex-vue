@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Welcome from './views/Welcome.vue'
-import Loading from './views/Loading.vue'
-import EmptyList from './views/EmptyList.vue'
-import PokemonList from './views/PokemonList.vue'
-import FavoritesList from './views/FavoritesList.vue'
-import PokemonDetails from './views/PokemonDetails.vue'
+import Welcome from '../views/Welcome.vue'
+import Loading from '../views/Loading.vue'
+import EmptyList from '../views/EmptyList.vue'
+import PokemonList from '../views/PokemonList.vue'
+import FavoritesList from '../views/FavoritesList.vue'
+import PokemonDetails from '../views/PokemonDetails.vue'
 
 const routes = [
   { path: '/', component: Welcome },
