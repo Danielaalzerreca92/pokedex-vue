@@ -17,7 +17,7 @@ La estructura del proyecto está organizada de manera modular y escalable:
 - **Componentes (`/src/components`)**: Componentes reutilizables que encapsulan funcionalidad específica.
 - **Vistas (`/src/views`)**: Páginas principales de la aplicación, cada una con su propia lógica y diseño.
 - **Estado (`/src/stores`)**: Gestión centralizada del estado de la aplicación usando Pinia.
-- **Rutas (`/src/router.js`)**: Configuración de navegación y rutas de la aplicación.
+- **Rutas (`/src/router/index.js`)**: Configuración de navegación y rutas de la aplicación.
 - **Assets (`/src/assets`)**: Recursos estáticos como imágenes y estilos globales.
 
 Esta arquitectura permite:
